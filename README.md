@@ -69,7 +69,7 @@ git config --global user.email "emillybeatrizamoroso@Gmail.com"
 php artisan serve
  ```
 
-# 👩🏽‍👩🏽‍👦🏽‍👦🏽 Desenvedores do projeto 
+# 👩🏽‍👩🏽‍👦🏽‍👦🏽 Desenvolvedores do projeto 
 * [Emilly Beatriz](https://github.com/MIMIMINISAIA)
 * [Guilherme Leal](https://github.com/guilealp)
 * [Mariana Leoncio](https://github.com/marileoncio)
