@@ -42,9 +42,9 @@ class CadastroCarrosControler extends Controller
         ]);
     }
 
-    public function pesquisarPorModelo(Request $request)
+    public function pesquisarPorModelo($modelo)
     {
-        $carros = Carros::where('modelo', 'like', '%' . $request->modelo . '%')->get();
+        $carros = Carros::where('modelo', 'like', '%' . $modelo . '%')->get();
 
         if (count($carros) > 0) {
             return response()->json([
